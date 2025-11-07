@@ -1,9 +1,18 @@
-body {
- background-color: cornSilk;
+body.animated-gradient {
+ background: linear-gradient(-45deg, #486265, #00aaff, #ff55aa, #a0d0ff);
+ background-size: 400% 400%;
+ animation: gradientShift 12s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%;}
 }
 
 h1 {
 font-family: Helvetica;
+font-size: 69px
 }
 
 h2 {
@@ -12,6 +21,7 @@ font-family: Helvetica;
 
 h3 {
 font-family: Helvetica;
+font-size: 35px
 }
 
 h6 {
@@ -20,4 +30,18 @@ font-family: Helvetica;
 
 p {
 font-family: Helvetica;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 
+        0px 0px 4px black;
+    transition: text-shadow 0.25s ease;
 }
