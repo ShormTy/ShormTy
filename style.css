@@ -1,3 +1,7 @@
+body {
+    color: #F5F7FA; /* main text color for readability against the gradient */
+}
+
 body.animated-gradient {
  background: linear-gradient(-45deg, #486265, #00aaff, #ff55aa, #a0d0ff);
  background-size: 400% 400%;
@@ -8,6 +12,10 @@ body.animated-gradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%;}
+}
+
+h1, h2, h3, h6 {
+    color: #FFFFFF; /* brighter headings */
 }
 
 h1 {
@@ -33,15 +41,17 @@ font-family: Helvetica;
 }
 
 a {
-    color: black;
+    color: #7BE6FF; /* link accent that complements blue/pink */
     text-decoration: none;
     font-weight: bold;
-    font-family: sans-serif
+    font-family: sans-serif;
+    transition: color 0.2s ease, text-shadow 0.25s ease;
 }
 
 a:hover {
+    color: #DFFBFF;
     text-decoration: underline;
-    text-shadow: 
-        0px 0px 4px black;
-    transition: text-shadow 0.25s ease;
+    text-shadow:
+        0 0 6px rgba(123,230,255,0.9),
+        0 0 14px rgba(255,85,170,0.25);
 }
