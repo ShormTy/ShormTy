@@ -44,11 +44,11 @@ a:hover {
 }
 
 .m-u-g-description {
-    font-family: 'Brush Script MT', 'Pacifico';
+    font-family: sans-serif;
     font-weight: 400;
     text-align: justify;
     line-height: 1.5;
-    margin: 0 1rem;
+    margin: 100px;
 }
 
 .social-links {
