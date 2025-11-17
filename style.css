@@ -3,15 +3,21 @@ body {
 }
 
 .animated-gradient {
- background: linear-gradient(-45deg, #4f0e48, #44283f, #555f67, #00ffe5);
- background-size: 400% 400%;
- animation: gradientShift 12s ease infinite;
+  background: linear-gradient(120deg,
+    #ff9a9e 0%,
+    #fecfef 20%,
+    #a18cd1 40%,
+    #667eea 60%,
+    #00c2ff 80%);
+  background-size: 200% 200%;
+  animation: gradientShift 12s ease infinite;
+  min-height: 100vh;
 }
 
 @keyframes gradientShift {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%;}
+    100% { background-position: 0% 50%; }
 }
 
 h1, h3, p {
@@ -20,11 +26,11 @@ h1, h3, p {
 }
 
 h1 {
-font-size: 69px
+    font-size: 69px;
 }
 
 h3 {
-font-size: 35px
+    font-size: 35px;
 }
 
 a {
@@ -44,18 +50,36 @@ a:hover {
 }
 
 .m-u-g-description {
-    font-family: sans-serif;
+    font-family: 'Brush Script MT', 'Pacifico', cursive;
     font-weight: 400;
     text-align: justify;
     line-height: 1.5;
-    margin: 100px;
+    max-width: 720px;
+    margin: 0.9rem auto 1.25rem auto;
+    padding: 0.5rem;
+}
+
+.m-u-g-section {
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(0,0,0,0.150);
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    max-width: 720px;
+    margin: 0.9rem auto 1.25rem auto;
 }
 
 .social-links {
     color: rgb(255, 213, 244);
+    text-shadow: 0 0 3px #000000;
     font-family: cursive;
     font-weight: 1000;
     letter-spacing: 0.2px;
+     display: inline-block;
+    margin: 0.3rem 0.35rem;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    background: rgba(255,255,255,0.03);
+    border-radius: 999px;
 }
 
 .social-links:hover {
@@ -66,7 +90,15 @@ a:hover {
         0 0 14px rgba(255,85,170,0.25);
 }
 
-img {
-    border-radius: 50%;
-    margin-bottom: 0px;
+.works-section {
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(0, 0, 0, 0.150);
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    max-width: 760px;
+    margin: 0.9rem auto 1.25rem auto;
+}
+
+.song-links {
+    text-shadow: 0 0 3px #000000;
 }
