@@ -44,8 +44,11 @@ a:hover {
 }
 
 .m-u-g-description {
-    font-family: arial, sans-serif;
-    font-weight: 100;
+    font-family: 'Brush Script MT', 'Pacifico';
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 1rem;
 }
 
 .social-links {
