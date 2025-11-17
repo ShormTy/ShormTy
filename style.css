@@ -43,6 +43,11 @@ a:hover {
         0 0 14px rgba(255,85,170,0.25);
 }
 
+.m-u-g-description {
+    font-family: arial, sans-serif;
+    font-weight: 100;
+}
+
 .social-links {
     color: rgb(255, 213, 244);
     font-family: cursive;
