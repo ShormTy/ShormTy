@@ -102,3 +102,9 @@ a:hover {
 .song-links {
     text-shadow: 0 0 3px #000000;
 }
+
+.email-link {
+    font-family: 'Brush Script MT', 'Pacifico', cursive;
+    font-weight: 400;
+    color: #000000
+}
