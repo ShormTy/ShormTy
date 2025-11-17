@@ -27,6 +27,7 @@ h1, h3, p {
 
 h1 {
     font-size: 69px;
+    text-shadow: 0 0 0px #000000;
 }
 
 h3 {
@@ -75,11 +76,11 @@ a:hover {
     font-weight: 1000;
     letter-spacing: 0.2px;
      display: inline-block;
-    margin: 0.3rem 0.35rem;
-    padding: 0.45rem 0.8rem;
-    border: 1px solid rgba(255, 255, 255, 0.541);
-    background: rgba(255,255,255,0.03);
-    border-radius: 999px;
+    margin: 0.5rem 0.8rem;
+    padding: 0.3rem 0.5rem;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgba(0, 14, 19, 0);
+    border-radius: 100px;
 }
 
 .social-links:hover {
@@ -88,6 +89,16 @@ a:hover {
     text-shadow:
         0 0 6px rgba(255, 178, 243, 0.9),
         0 0 14px rgba(255,85,170,0.25);
+}
+
+.img-button {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    filter: brightness(3.5)
+}
+
+.img-button:hover {
+    transform: scale(1.1);
 }
 
 .works-section {
