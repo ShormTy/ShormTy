@@ -3,15 +3,15 @@ body {
 }
 
 .animated-gradient {
-  background: linear-gradient(120deg,
-    #ff9a9e 0%,
-    #fecfef 20%,
-    #a18cd1 40%,
-    #667eea 60%,
-    #00c2ff 80%);
-  background-size: 200% 200%;
-  animation: gradientShift 12s ease-in-out infinite;
-  min-height: 100vh;
+    background: linear-gradient(120deg,
+        #ff9a9e 0%,
+        #fecfef 20%,
+        #a18cd1 40%,
+        #667eea 60%,
+        #00c2ff 80%);
+    background-size: 200% 200%;
+    animation: gradientShift 12s ease-in-out infinite;
+    min-height: 100vh;
 }
 
 @keyframes gradientShift {
@@ -32,6 +32,14 @@ h1 {
 
 h3 {
     font-size: 35px;
+}
+
+.about-me {
+    font-family: sans-serif;
+    font-weight: 100;
+    max-width: 720px;
+    margin: 0.9rem auto 1.25rem auto;
+    padding: 0.5rem;
 }
 
 a {
@@ -73,7 +81,7 @@ a:hover {
     font-family: cursive;
     font-weight: 1000;
     letter-spacing: 0.2px;
-     display: inline-block;
+    display: inline-block;
     margin: 0.5rem 0.8rem;
     padding: 0.3rem 0.5rem;
     border: 2px solid rgb(255, 255, 255);
@@ -131,12 +139,4 @@ a:hover {
     vertical-align: middle;
     height: 25px;
     width: auto;
-}
-
-.about-me {
-    font-family: sans-serif;
-    font-weight: 100;
-    max-width: 720px;
-    margin: 0.9rem auto 1.25rem auto;
-    padding: 0.5rem;
 }
